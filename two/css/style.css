@@ -1,0 +1,250 @@
+@import url(reset.css);
+body,
+html {
+  font-family: "Lato", sans-serif;
+  background: #e2e2e2;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: 0 auto;
+}
+
+.card {
+  width: 95px;
+  height: 145px;
+  border: 2px solid #fcfcfc;
+  border-radius: 5px;
+}
+
+.borad {
+  margin: 0 8px;
+}
+
+.col {
+  position: relative;
+}
+
+.col div:nth-child(n + 2) {
+  position: absolute;
+}
+
+.col div:nth-child(2) {
+  top: 25px;
+}
+
+.col div:nth-child(3) {
+  top: 50px;
+}
+
+.col div:nth-child(4) {
+  top: 75px;
+}
+
+.col div:nth-child(5) {
+  top: 100px;
+}
+
+.col div:nth-child(6) {
+  top: 125px;
+}
+
+.col div:nth-child(7) {
+  top: 150px;
+}
+
+.content {
+  width: 1200px;
+  height: 600px;
+}
+
+.content .main {
+  width: 1000px;
+  margin: 0 auto;
+}
+
+.content .main header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: 2% 2%;
+}
+
+.content .main header .stay {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+.content .main header .logo {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.content .main header .logo img {
+  width: 60px;
+}
+
+.content .main header .logo h3 {
+  text-transform: uppercase;
+}
+
+.content .main header .collect {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+.content .main header .collect .collectcard {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: #fcfcfc;
+}
+
+.content .main header .collect .collectcard img {
+  width: 35px;
+  height: 35px;
+}
+
+.content .main #ramdoncard {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  min-height: 495px;
+}
+
+.content .main #ramdoncard .card {
+  border: 0.5px solid #bababa;
+  border-radius: 5px;
+}
+
+.content .main #ramdoncard img {
+  width: 100%;
+}
+
+.content .main footer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  font-weight: bold;
+  border-top: 1px solid #bababa;
+  padding: 10px;
+}
+
+.content .main footer .info {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.content .main footer .info .info-mark {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  border: 2px solid #222222;
+  border-radius: 50%;
+  margin: 0 5px 0 0;
+  width: 40px;
+  height: 40px;
+}
+
+.content .main footer .info .info-mark img {
+  width: 20px;
+  height: 20px;
+}
+
+.content .main footer span {
+  margin: 0 5px 0 0;
+}
+
+.content .main footer nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.content .main footer nav ul li {
+  list-style: none;
+}
+
+.content .main footer nav ul li button {
+  font-family: "Lato", sans-serif;
+  font-size: 12px;
+  font-weight: bold;
+  background: #222222;
+  color: #fff;
+  width: 120px;
+  height: 40px;
+  outline: none;
+  border-radius: 50px;
+  border: 1px solid #222222;
+  margin: 0 5px;
+}
+
+.content .main footer nav ul li :hover {
+  background-color: #ffb53e;
+  border: 1px solid #ffb53e;
+  cursor: pointer;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+/*# sourceMappingURL=style.css.map */
